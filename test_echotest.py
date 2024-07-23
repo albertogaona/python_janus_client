@@ -14,8 +14,7 @@ async def main():
     # transport = JanusTransportHTTP(
     #     uri="https://janusmy.josephgetmyip.com/janusbase/janus"
     # )
-    session = JanusSession(base_url="wss://janusmy.josephgetmyip.com/janusbasews/janus")
-    # session = JanusSession(base_url="https://janusmy.josephgetmyip.com/janusbase/janus")
+    session = JanusSession(base_url="https://janus.tilatina.com/janus", api_secret="totemssagrados")
 
     plugin_handle = JanusEchoTestPlugin()
 
